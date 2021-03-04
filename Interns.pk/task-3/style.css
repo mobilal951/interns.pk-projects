@@ -1,0 +1,66 @@
+body{
+	background-color: #589ED9;
+}
+#container{
+	width: 300px;
+	margin : 0 auto;
+	margin-top: 250px;
+	text-align: center;
+}
+#header .logo .fa-wa{
+font-size: 50px;
+color : white;
+}
+#header h1{
+	font-size:  35px;
+	color : white;
+}
+#loginform .inputfeilds{
+	background-color: white;
+		border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#loginform .inputfeilds input[type="email"] ,
+#loginform .inputfeilds input[type="password"]{
+	width : 100%;
+	border : none;
+	padding: 0px;
+	margin: 0px;
+	outline : none;
+	padding-top: 18px;
+	padding-bottom: 20px;
+	text-indent: 20px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+#loginform .inputfeilds input[type="password"]{
+	border-top: 1px solid #ccc;
+}
+#loginform  input[type="submit"] {
+	display : block;
+	width : 100%;
+	border : none;
+	background-color: #2186D4;
+	font-size: 25px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	color : white;
+
+	margin-top: 10px;
+	padding : 14px 0px;
+	border-radius: 6px;}
+
+#loginform  input[type="submit"]:hover{
+	background-color: black;
+	cursor: pointer;
+}
+#footer p{
+	color : white;
+	font-size: 18px;
+}
+a{
+	color : white;
+	text-decoration: none;
+	font-weight: bold;
+}
